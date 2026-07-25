@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: Product CRUD
+    orgId: 1
+    folder: Product CRUD
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards
