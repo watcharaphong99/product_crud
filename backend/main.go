@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 
@@ -49,5 +50,6 @@ func main() {
 		port = "8080"
 	}
 
+	fmt.Println(port, "port")
 	log.Fatal(app.Listen(":" + port))
 }
